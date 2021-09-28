@@ -28,9 +28,10 @@ ul {
 .nav-item {
 	text-decoration: none;
 	color: #69696a;
+	display: flex;
 }
 
-.accent-link {
+.accent-link1,.accent-link {
 	background-color: black;
 	display: block;
 	text-align: center;
@@ -66,3 +67,15 @@ ul {
 	color: #69696a;
 	padding: 5px;
 }
+@media screen and (min-width: 768px) {
+	    .nav-list{
+			display:flex;
+			justify-content: space-between;
+		}
+		.accent-link{
+			width: 50%;
+		}
+		.about-text{
+			width: 50%;
+		}
+	}
