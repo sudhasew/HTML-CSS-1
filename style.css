@@ -1,0 +1,68 @@
+body,
+h1 {
+	margin: 0;
+}
+
+body {
+	padding: 20px;
+	font-family: "Open Sans", sans-serif;
+}
+
+a {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+}
+
+.company-name {
+	color: #000;
+}
+
+.nav-list {
+	margin: 0;
+	padding: 0;
+}
+
+.nav-item {
+	text-decoration: none;
+	color: #69696a;
+}
+
+.accent-link {
+	background-color: black;
+	display: block;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	color: white;
+}
+
+.about-text {
+	border-left: 2px solid black;
+	padding-left: 10px;
+	color: #69696a;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background-color: rgba(247, 193, 162, 0.7);
+	display: flex;
+	justify-content: space-between;
+	color: #69696a;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.footer-nav-list {
+	display: flex;
+}
+
+.footer-nav-list a {
+	color: #69696a;
+	padding: 5px;
+}
