@@ -78,9 +78,36 @@ ul {
 	padding: 5px;
 }
 @media screen and (min-width: 768px) {
-	    .nav-list{
-			display:flex;
-			justify-content: space-between;
+	    ul {
+			margin: 0;
+			padding: 0;
+		}
+	    .nav {
+			display: flex-box;
+		}
+		
+		.nav-list {
+			list-style: none;
+			display: flex;
+			margin-right: -5px;
+		}
+
+		ul.nav-list{
+			display: flex;
+			align-items: center;
+			justify-content:right;
+		}
+		
+		.link {
+			text-decoration: none;
+			display: flex;
+			padding: 10px;
+		}
+		
+		.nav-item {
+			text-decoration: none;
+			color: #69696a;
+			display: flex;
 		}
 		.about-parent-container {
 			display: flex;
@@ -139,10 +166,10 @@ ul {
 		}
 		.ring3 {
 			border:15px;
-	padding:80px;
-	height:.1em;
-	width:.1em;
-	background:rgba(207, 130, 213, 0.6);
+			padding:80px;
+			height:.1em;
+			width:.1em;
+			background:rgba(207, 130, 213, 0.6);
 			left: 200px;
 			z-index: -1;
 		}
