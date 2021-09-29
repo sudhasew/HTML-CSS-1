@@ -40,6 +40,14 @@ ul {
 	color: #69696a;
 	display: flex;
 }
+ul {
+	margin: 0;
+	padding: 0;
+}
+.nav-list{
+	display: flex;
+	flex-direction: column;
+	}
 
 .accent-link1,.accent-link {
 	background-color: black;
@@ -87,9 +95,8 @@ ul {
 		}
 		
 		.nav-list {
-			list-style: none;
 			display: flex;
-			margin-right: -5px;
+			flex-direction: row;
 		}
 
 		ul.nav-list{
