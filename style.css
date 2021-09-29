@@ -19,10 +19,20 @@ ul {
 .company-name {
 	color: #000;
 }
+.nav {
+	display: flex-box;
+}
 
 .nav-list {
-	margin: 0;
-	padding: 0;
+	list-style: none;
+	display: flex;
+	margin-right: -5px;
+}
+
+.link {
+	text-decoration: none;
+	color: #7944e6;
+	padding: 10px;
 }
 
 .nav-item {
@@ -76,10 +86,15 @@ ul {
 			display: flex;
 			align-items: center;
 			padding-bottom: 200px;
+			height : 500px;
 		}
 	
 		.about-container {
 			flex: 1;
+			height: 500px;
+		}
+		.side-by-side-item{
+            width: 50%;
 		}
 		.circle-container {
 			flex: 1;
@@ -89,8 +104,15 @@ ul {
 			width: 735px;
 			margin: 100px auto 0 auto;
 			position: relative;
+			height : 800px;
+			left : 100px;
 		}
-
+		.about-container.side-by-side-item {
+			margin-top: 200px;
+		}
+		.circle-container.side-by-side-item {
+			height: 500px;
+		}
 		.ring {
 			margin:5px;
 			float:left;
